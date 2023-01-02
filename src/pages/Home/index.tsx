@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState, useMemo } from "react";
+import Select from "react-select";
+import countryList from "react-select-country-list";
 
 export function Home() {
+    const [value, setValue] = useState<string>("");
+    const options = useMemo(() => countryList().getData(), []);
+
+        const changeHandler = (value:any) => {
+					setValue(value);
+				};
+
 	return (
-		<h1>home</h1>
+		   <Select options={options} value={value} onChange={changeHandler} />
     )
 }
