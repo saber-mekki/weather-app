@@ -1,8 +1,44 @@
-# Getting Started with Create React App
+# Weather-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped using [Create React App](https://github.com/facebook/create-react-app) with `typescript` template.
+Our project respect [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) spec).
 
-## Available Scripts
+### Technologies
+
+-   React (functional components with hooks)
+-   Typescript (JavaScript with `types system` and more)
+-   Yarn (the node modules manager)
+-   react-bootstrap (CSS framework)
+
+### Folder structure
+
+<pre>
+	.
+	├── package.json
+	├── .env.example // env variables
+	├── public
+	├── README.md
+	├── src
+	│   ├── App.tsx
+	│   ├── assets
+	│   ├── components // common components
+	│   ├── index.tsx
+	│   ├── pages // pages components
+	│   ├── react-app-env.d.ts
+	│   ├── serviceWorker.ts
+	│   ├── setupTests.ts
+	├── tsconfig.json // typescript config file
+	├── tsconfig.paths.json // paths alias (using `@folder/sub_folder` instead of `../../folder/sub_folder` in `import` statements)  
+	└── yarn.lock
+</pre>
+
+### Bootstrap
+
+-   Install app dependencies with hitting `yarn` command in your favorite `terminal`.
+-   copy `.env.example` to `.env.local` and adjust it.
+-   Hit `yarn start` and you `mostly` ready to GO (see #available-scripts section).
+
+## Available Script
 
 In the project directory, you can run:
 
@@ -14,33 +50,26 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### Git workflow
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We choose to use a modified version of `feature branch` workflow, so every `feature branch` should be a `child` of `dev` branch (not `main` or `master` branch)
 
-### `yarn build`
+For more information about `feature branch` workflow, see those links: [1](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), [2](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows), [3](https://bocoup.com/blog/git-workflow-walkthrough-feature-branches).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Typing convention
+-   Use `typescript basic types` as possible as you can (see [this link](https://www.typescriptlang.org/docs/handbook/basic-types.html) for more info).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Todo
+
+-   Add `router`
+-   Add `i18n`
+-   Add `new weather card`
+
+## saber mekki
