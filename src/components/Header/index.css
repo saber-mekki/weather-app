@@ -1,0 +1,17 @@
+.header-container__clz {
+    background-color: rgb(26, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 59px;
+    padding-left: 67px;
+    padding-left: 67px;
+   
+}
+
+.text-header-container__clz {
+     padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
