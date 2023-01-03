@@ -21,7 +21,7 @@ export function Home() {
 	React.useEffect(() => {
 		const fetchData = async () => {
 			await fetch(
-				`${process.env.REACT_APP_WEATHER_URL}/?q=${countryName}&units=metric&APPID=${process.env.REACT_APP_WEATHER_API_KEY}`
+				`https://api.openweathermap.org/data/2.5/weather/?q=${countryName}&units=metric&APPID=f825344b0cf0672c689378549f9868db`
 			)
 				.then((res) => res.json())
 				.then((result) => {
