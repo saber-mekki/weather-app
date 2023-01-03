@@ -10,6 +10,10 @@ Our project respect [conventional commits](https://www.conventionalcommits.org/e
 -   Yarn (the node modules manager)
 -   react-bootstrap (CSS framework)
 
+### Packages
+-   react-select-country-list, check out the [documentation](https://www.npmjs.com/package/react-select-country-list)
+-   moment, check out the [documentation](https://momentjs.com/)
+
 ### Folder structure
 
 <pre>
@@ -71,5 +75,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 -   Add `router`
 -   Add `i18n`
 -   Add `new weather card`
-
+-   Add `responsive` view 
 ## saber mekki
