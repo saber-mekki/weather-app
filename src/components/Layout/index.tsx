@@ -13,7 +13,9 @@ export default function Layout(): JSX.Element {
 				<Header />
 			</div>
 			<div className="home__clz">
-				<Home />
+				<React.Suspense fallback="Loading...">
+					<Home />
+				</React.Suspense>
 			</div>
 			<div className="footer__clz">
 				<Footer />
