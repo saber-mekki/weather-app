@@ -1,0 +1,31 @@
+.card__clz {
+	margin-top: 59px;
+	border-radius: 30px!important;
+    background-color: rgb(34, 5, 161)!important;
+}
+
+.temp-hum{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+   font-size: 24px;
+}
+.temp__clz{
+    display: flex;
+}
+
+.time__clz{
+padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main__clz{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
