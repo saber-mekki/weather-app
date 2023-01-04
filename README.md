@@ -39,7 +39,8 @@ Our project respect [conventional commits](https://www.conventionalcommits.org/e
 ### Bootstrap
 
 -   Install app dependencies with hitting `yarn` command in your favorite `terminal`.
--   copy `.env.example` to `.env.local` and adjust it.
+-   copy `.env.example` to `.env.local` and adjust it and add the tow line `REACT_APP_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather'
+REACT_APP_WEATHER_API_KEY = 'f825344b0cf0672c689378549f9868db'`.
 -   Hit `yarn start` and you `mostly` ready to GO (see #available-scripts section).
 
 ## Available Script
